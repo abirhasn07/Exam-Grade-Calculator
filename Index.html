@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Exam Grade Calculator</title>
+</head>
+<body>
+    <section class="main-section">
+    <div class="container">
+        <div class="Headline">
+            <h3>Student <br> Grade <br> Calculator</h3>
+            <span></span>
+        </div>
+        <div class="Calculator">
+            <input type="text" placeholder="English" id="eng" value="">
+            <input type="text" placeholder="Physic" id="phy">
+            <input type="text" placeholder="Mathematics" id="math">
+            <input type="text" placeholder="Chemistry" id="che">
+            <button onclick="resultHandler()">Show Result</button>
+        </div>
+<div class="Result-showing">
+    <h5>Total Marks Exams : </h5>
+    <h5>Total Marks You Get : <span id="totalMarks"></span> </h5>
+    <h5 >Average: <span id="persenTage"></span> </h5>
+    <!-- <h5 >Your Grade: <span id="grade"></Grade:span> </h5> -->
+    <h6 id="qt">Out of Total 400 You Get <span id="totalMark">000</span> an Average Of <span id="avarage">00</span> </h6>
+   
+</div>
+    </div>
+    </section>
+
+    <script src="./app.js"></script>
+</body>
+</html>
